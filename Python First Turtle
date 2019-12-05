@@ -1,0 +1,15 @@
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor("black")
+wn.title("Turtle Tests")
+
+bob = turtle.Turtle()
+bob.color("hot pink")
+bob.pensize(2)
+
+for i in range(4):
+    bob.forward(50)
+    bob.right(90)
+
+wn.mainloop()
